@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Weather App</title>
+        <style>
+            body{
+                background-image: url("background.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                width: 100%;
+                height: 100%;
+            }
+            .info{
+                position: relative;
+                background-color: rgba(127, 255, 212, 0.575);
+                width: 70%;
+                height: 70%;
+                left: 10%;
+                border-radius: 15px;
+                padding-top: 0.5%;
+                padding-bottom: 0.5%;
+                padding-left: 0.5%;
+                border-style: solid;
+                border-width: 10%;
+                border-color: chartreuse;
+            }
+            h1{
+                position: relative;
+                -webkit-text-fill-color: aqua;
+                left: 10%;
+            }
+            h2{
+                position: relative;
+                -webkit-text-fill-color: rgb(255, 0, 200);
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Here is today's forecast:</h1>
+        <div class="info">
+            <h2 id="time">time</h2>
+            <p id="temp">Temperature: </p>
+            <p id="windSpeed">Wind speed: </p>
+            <p id="windDir">Wind Direction: </p>
+            <p id="rainChance">Chance of rain: </p>
+            <p id="desc">Description: <br></p>
+
+            <h2 id="time2">time</h2>
+            <p id="temp2">Temperature: </p>
+            <p id="windSpeed2">Wind speed: </p>
+            <p id="windDir2">Wind Direction: </p>
+            <p id="rainChance2">Chance of rain: </p>
+            <p id="desc2">Description: <br></p>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
